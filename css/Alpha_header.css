@@ -57,9 +57,6 @@ body {
   .geser-kebawah2{
     margin-bottom : 16px;
   }
-  #White{
-    color: white;
-  }
   
     .input-field-search{
       background-color: white;
@@ -75,10 +72,13 @@ body {
       background-color:white;
       width: 20px;
       height: 20px;
+      border: none;
     }
     #btn_search{
+      color: black;
       height: 20px;
       background: none;
+      border: none;
     }
     #search{
       padding: 8px;
@@ -88,7 +88,10 @@ body {
       border:none;
       
     }
-  
+  .Menu_login{
+    width: 100px;
+    height: 1000px;
+  }
   .navlinkLogin{
     display: flex;
     flex-direction: row;
@@ -103,13 +106,26 @@ body {
   flex-direction: row;
   }
 
+  .centernav-column{
+    margin: auto;
+  width: 78%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  }
+  .Column{
+    display: flex;
+    flex-direction: column;
+  }
+
 
   
   .nav_bawah{
-    overflow: hidden;
+    
     height: 43px;
     width: 100%;
     background-color: #e2e2e2;
+    
    
   }
   .background_Abu-abu{
@@ -126,6 +142,18 @@ body {
     color: #7f7f7f;
     font-size: 14px;
   }
+  #White{
+    color: white;
+  }
+  #White_akun{
+    color: white;
+    font-size: 12px;
+  }
+  #White_med{
+    color: white;
+    font-size: 14px;
+  }
+  
 
   .Catalog{
     margin: auto;
@@ -151,11 +179,59 @@ body {
     list-style-type: none;
     padding: 0;
   }
-
-.bodypage{
-  padding-top: 110px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  .icon-akun{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  .icon-Love{
+    width: 40px;
+    height: 40px;
+  }
   
+
+  .dropdown_akun {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown_akun:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown_akun:hover .icon-akun {
+  background-color: #3e8e41;
+}
+.InfoAkun{
+  width: 200px;
+  height: 45px;
+  text-align: center;
+}
+.isi_dropdown_akun{
+  height: 500px;
+  width: 200px;
+}
+.baris{
+  display: flex;
+  flex-direction: row;
 }

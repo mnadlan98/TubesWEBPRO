@@ -159,3 +159,11 @@ body {
   flex-direction: column;
   
 }
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.baris{
+  display: flex;
+  flex-direction: row;
+}

@@ -8,9 +8,9 @@
     <title>Fashion PRIA - Jual Fashion Pria | Zalora Indonesia</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/Index_man.css">
-    <link rel="stylesheet" href="css/Alpha_header.css">
-    <link rel="stylesheet" href="css/Alpha_footer.css">
+    <link rel="stylesheet" href="http://localhost/Tubes2_zalora/css/Index_women.css">
+    <link rel="stylesheet" href="http://localhost/Tubes2_zalora/css/Alpha_header.css">
+    <link rel="stylesheet" href="http://localhost/Tubes2_zalora/css/Alpha_footer.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -18,28 +18,44 @@
     <div class="header">
         <div class="nav_atas">
             <div class="centernav">
-                <a href="#">
-                    <h2>Z A L O R A</h2>
+                <a href="<?php echo base_url('') ?>">
+                    <h2>Z A L O R A</h2>                    
                 </a>
                 <span class="Gander">
                     <ul class="navlinkGender">
-                        <li><a id="White" href="#">WANITA</a></li>
-                        <li class="geser"><a id="White" ref="#">PRIA</a></li>
+                        <li><a id="White" href="<?php echo site_url('women') ?>">WANITA</a></li>
+                        <li class="geser"><a id="White" href="<?php echo base_url('') ?>">PRIA</a></li>
                     </ul>
                 </span>
                 <div class="input-field-search">
                     <input id="search" type="search" placeholder="Search" autocomplete="off">
                     <div class="btn-search">
-                        <label id="btn_search" type="button" for="search"><i
-                                class="material-icons search-icon">search</i></label>
+                        <a  href="#" id="btn_search" >
+                            <i class="material-icons search-icon">search</i></a>
                     </div>
                 </div>
                 <span class="Menu_login">
-                    <ul class="navlinkLogin">
-                        <li><a href="#"><img  class="icon" src="/images/round-account-button-with-user-inside.png" alt="tidak terlalu terjal"></a></li>
-                        <li><a href="#">Love</a></li>
-                        <li><a href="#">Keranjang</a></li>
-                    </ul>
+                    <div class="navlinkLogin">
+                        <div class="dropdown_akun">
+                            <a href="<?php echo site_url('akun') ?>"><img  class="icon-akun" src="http://localhost/Tubes2_zalora/assets/images/Screenshot from 2019-04-16 10-24-32.png" alt="tidak terlalu terjal"></a>
+                            <div class="dropdown-content">
+                                    <div class="Header-dropdown">SELAMAT DATANG, BAYU</div>
+                                    <div class="Body-dropdown">
+                                        <a href="#">AKUN SAYA</a>
+                                        <a href="#">WALLET</a>
+                                        <a href="#">WISHLIST</a>
+                                        <a href="#">LIHAT STATUS PEMESANAN</a>
+                                        <a href="#">KONFIRMASI TRANSFER</a>
+                                        <a href="#">PENUKARAN & PEMBELIAN</a>
+                                        <a href="#">BANTUAN</a>
+                                        <a href="#">KELUAR</a>
+                                    </div>
+                                    
+                            </div>
+                        </div>
+                        <a href="<?php echo site_url('wishlist') ?>"><img class="icon-Love"src="http://localhost/Tubes2_zalora/assets/images/Screenshot from 2019-04-16 10-27-09.png" alt="Love"></a>
+                        <a href="<?php echo site_url('keranjang') ?>"><img src="http://localhost/Tubes2_zalora/assets/images/Screenshot from 2019-04-16 10-27-08.png" alt="Keranjang"></a>
+                    </div>
                 </span>
             </div>
         </div>

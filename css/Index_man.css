@@ -1,2 +1,24 @@
 
- 
+ .bodypage{
+    padding-top: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .Body-header{
+      display: flex;
+      flex-direction: row;
+  }
+  .Body-header1{
+    display: flex;
+    flex-direction: row;
+}
+  .centernav-column{
+    margin: auto;
+  width: 78%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  }

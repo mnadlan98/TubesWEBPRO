@@ -1,0 +1,63 @@
+.bodypage{
+    padding-top: 80px;
+    width: 78%;
+    margin: auto;
+    height: auto;   
+    display: flex;
+    flex-direction: column;
+}
+.Body-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.body_isi{
+    display: flex;
+    flex-direction: row;
+}
+.Body_Tamplate_akun{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 270px;
+}
+.Akun_Saya{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.Wallet{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.ZNOW_Saya{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.Lacak_Pesanan{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.Penukaran_Pengembalian{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.Konfirmasi_Transfer{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.Preferensi{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.Wishlist{
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
